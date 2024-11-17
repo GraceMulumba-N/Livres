@@ -1,8 +1,8 @@
 ﻿using Livres;
 
-internal class Program
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Bienvenue dans Gestion de Livres!");
 
@@ -13,5 +13,13 @@ internal class Program
         revue1.AfficherDetails();
         revue2.AfficherDetails();
         revue3.AfficherDetails();
+
+        Roman roman1 = new Roman("Je veux que tu m'aimes", "Antoine Rault", 240, "Theatral");
+        Roman roman2 = new Roman("La voleuse de livres", "Markus Zusak", 1620, "Historique");
+        Roman roman3 = new Roman("Sherlock Holmes", "Arthur Conan Doyle", 316, "Fiction");
+
+        roman1.AfficherDetails();
+        roman2.AfficherDetails();
+        roman3.AfficherDetails();
     }
 }
