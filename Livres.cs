@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Livres
 {
-    public class Livres
+    public class Livre
     {
         public string Titre { get; set; }
         public string Auteur { get; set; }
         public int NombrePages { get; set; }
 
-        public Livres(string titre, string auteur, int nbrPages) 
+        public Livre(string titre, string auteur, int nbrPages) 
         {
             Titre = titre;
             Auteur = auteur;

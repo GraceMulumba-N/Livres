@@ -21,5 +21,14 @@ public class Program
         roman1.AfficherDetails();
         roman2.AfficherDetails();
         roman3.AfficherDetails();
+
+        List<Livre> livres = new List<Livre>
+        {
+            revue1,revue2, revue3, roman1, roman2, roman3
+        };
+        foreach(var livre in livres)
+        {
+            livre.AfficherDetails();
+        }
     }
 }

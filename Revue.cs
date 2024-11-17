@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Livres
 {
-    public class Revue : Livres
+    public class Revue : Livre
     {
         public int Numero { get; set; }
         public int Annee { get; set; }
